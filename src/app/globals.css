@@ -1,0 +1,85 @@
+@import "./utilities.css";
+
+:root {
+  --color-ivory: #FDFBF7;
+  --color-champagne: #F5EAE1;
+  --color-gold: #D4AF37;
+  --color-burgundy: #800020;
+  --color-dark-green: #2B4136;
+  --color-text-dark: #3A3533;
+  --color-text-light: #FDFBF7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-text-dark);
+  font-family: var(--font-lora), serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+.heading-font {
+  font-family: var(--font-great-vibes), cursive;
+  font-weight: 400;
+}
+
+.serif-font {
+  font-family: var(--font-lora), serif;
+}
+
+.sans-font {
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Reusable Utilities */
+.text-gold {
+  color: var(--color-gold);
+}
+
+.text-burgundy {
+  color: var(--color-burgundy);
+}
+
+.bg-ivory {
+  background-color: var(--color-ivory);
+}
+
+.bg-burgundy {
+  background-color: var(--color-burgundy);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ivory);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 4px;
+}
+
+/* 3D Utilities */
+.perspective-1500 {
+  perspective: 1500px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
