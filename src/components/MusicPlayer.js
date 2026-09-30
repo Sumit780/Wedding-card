@@ -20,7 +20,7 @@ export default function MusicPlayer() {
             <audio
                 ref={audioRef}
                 loop
-                src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                src="/wedding-music.m4a"
             />
             <motion.button
                 onClick={() => setIsPlaying(!isPlaying)}
