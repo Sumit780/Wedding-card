@@ -20,7 +20,7 @@ export default function MusicPlayer() {
             <audio
                 ref={audioRef}
                 loop
-                src="/wedding-music.m4a"
+                src="/ai-music.m4a"
             />
             <motion.button
                 onClick={() => setIsPlaying(!isPlaying)}
